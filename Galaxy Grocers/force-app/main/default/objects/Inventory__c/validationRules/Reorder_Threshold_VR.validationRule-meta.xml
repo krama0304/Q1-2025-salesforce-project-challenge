@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reorder_Threshold_VR</fullName>
+    <active>true</active>
+    <description>Reorder Threshold is not greater than Current Stock Level</description>
+    <errorConditionFormula>Reorder_Threshold__c &gt; Current_Stock_Level__c</errorConditionFormula>
+    <errorDisplayField>Reorder_Threshold__c</errorDisplayField>
+    <errorMessage>Reorder Threshold is not greater than Current Stock Level</errorMessage>
+</ValidationRule>
