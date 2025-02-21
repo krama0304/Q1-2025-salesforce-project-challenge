@@ -3,7 +3,7 @@
     <fullName>ExpiryDateVR</fullName>
     <active>true</active>
     <description>Expiry Dates can’t be in the past.</description>
-    <errorConditionFormula>Expiration_Date__c &gt; NOW()</errorConditionFormula>
+    <errorConditionFormula>Expiration_Date__c &lt; NOW()</errorConditionFormula>
     <errorDisplayField>Expiration_Date__c</errorDisplayField>
     <errorMessage>Expiry Dates can’t be in the Past Date.</errorMessage>
 </ValidationRule>

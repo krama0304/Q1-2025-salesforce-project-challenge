@@ -11,19 +11,19 @@
         <valueSetDefinition>
             <sorted>true</sorted>
             <value>
-                <fullName>Beverage,</fullName>
+                <fullName>Beverage</fullName>
                 <default>false</default>
-                <label>Beverage,</label>
+                <label>Beverage</label>
             </value>
             <value>
-                <fullName>Food,</fullName>
+                <fullName>Food</fullName>
                 <default>false</default>
-                <label>Food,</label>
+                <label>Food</label>
             </value>
             <value>
-                <fullName>Household,</fullName>
+                <fullName>Household</fullName>
                 <default>false</default>
-                <label>Household,</label>
+                <label>Household</label>
             </value>
             <value>
                 <fullName>Other</fullName>
