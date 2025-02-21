@@ -16,6 +16,14 @@
         <members>Account</members>
         <name>CustomObject</name>
     </types>
+        <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+        <types>
+        <members>Low_Stock_Restock_Automation</members>
+        <name>Flow</name>
+    </types>
     <types>
      <members>Store__c</members> 
      <members>Inventory__c</members>
