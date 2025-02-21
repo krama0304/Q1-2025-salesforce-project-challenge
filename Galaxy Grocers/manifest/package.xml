@@ -17,7 +17,7 @@
         <name>CustomObject</name>
     </types>
         <types>
-        <members>*</members>
+        <members>Low_Stock_Restock_Automation</members>
         <name>ApprovalProcess</name>
     </types>
         <types>
