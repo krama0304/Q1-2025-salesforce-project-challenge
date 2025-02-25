@@ -21,9 +21,15 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>submitterId</name>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>processDefinitionNameOrId</name>
             <value>
-                <stringValue>Inventory_Reorder_Approval</stringValue>
+                <elementReference>ApprovalProcessName</elementReference>
             </value>
         </inputParameters>
         <nameSegment>submit</nameSegment>
@@ -137,6 +143,12 @@
                 <elementReference>varTaskSubject</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
         <object>Task</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
@@ -181,4 +193,14 @@
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <variables>
+        <name>ApprovalProcessName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Inventory_Reorder_Approval</stringValue>
+        </value>
+    </variables>
 </Flow>
