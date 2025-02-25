@@ -22,6 +22,7 @@
     </types>
         <types>
         <members>Low_Stock_Restock_Automation</members>
+      <members>Expiring_Inventory_Notification</members>
         <name>Flow</name>
     </types>
     <types>
