@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Create Account" variant="Narrow" icon-name="standard:account">
+        <div class="slds-var-p-around_small">
+            <lightning-input name="accName" type="text" label="Account Name"></lightning-input>
+            <br />
+
+            <lightning-input name="accNumber" type="number" label="Account Number"></lightning-input>
+            <br />
+
+            <lightning-button label="Submit" title="Submit" onclick={handleClick} variant="brand"></lightning-button>
+            &nbsp; &nbsp;<lightning-button label="Reset" title="Reset" onclick={handleReset}
+                variant="brand"></lightning-button>
+        </div>
+    </lightning-card>
+</template>
